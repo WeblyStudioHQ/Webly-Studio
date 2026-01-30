@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Webly Studio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">Webly<span>Studio</span></div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+  <a href="https://www.freelancer.com/u/mariyainamdar84" target="_blank" class="hire-btn">
+    Hire on Freelancer
+  </a>
+</nav>
+
+<section class="hero" style="flex-direction:column; padding-top:160px;">
+  <h1>Contact <span>Me</span></h1>
+  <p style="opacity:0.8; margin-bottom:40px;">
+    Have a project or a question? Reach out via email or hire me directly on Freelancer.
+  </p>
+
+  <div class="contact-grid">
+
+    <div class="glass-card contact-card">
+      <h3>Email Me</h3>
+      <p><a href="mailto:weblystudio35@gmail.com" style="color:#4dd2ff; text-decoration:none;">weblystudio35@gmail.com</a></p>
+    </div>
+
+    <div class="glass-card contact-card">
+      <h3>Hire on Freelancer</h3>
+      <p><a href="https://www.freelancer.com/u/mariyainamdar84" target="_blank" style="color:#4dd2ff; text-decoration:none;">
+        Click here to hire me
+      </a></p>
+    </div>
+
+  </div>
+</section>
+
+<script src="script.js"></script>
+
+<style>
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  padding: 0 40px 60px;
+}
+
+.contact-card {
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 25px rgba(0,0,0,0.3);
+  transition: 0.4s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 0 35px rgba(77,210,255,0.6);
+}
+
+.contact-card h3 {
+  margin-bottom: 15px;
+  color: #4dd2ff;
+}
+</style>
+
+</body>
+</html>

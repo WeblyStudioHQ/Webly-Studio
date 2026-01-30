@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Digital Products | Webly Studio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">Webly<span>Studio</span></div>
+  <ul class="nav-links">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="services.html">Services</a></li>
+  <li><a href="products.html">Products</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+  <a href="https://www.freelancer.com/u/mariyainamdar84" target="_blank" class="hire-btn">
+    Hire on Freelancer
+  </a>
+</nav>
+
+<section class="hero" style="flex-direction:column; padding-top:160px;">
+  <h1 style="margin-bottom:10px;">
+    Digital <span style="color:#4dd2ff;">Products</span>
+  </h1>
+  <p style="opacity:0.8; margin-bottom:40px;">
+    Smart business tools designed to simplify tracking, planning and growth.
+  </p>
+
+  <div class="products-grid">
+
+    <!-- Product 1 -->
+    <a href="product-pl.html" class="product-card">
+      <h3>P&L Tracker</h3>
+      <p>Track income, expenses & profit with clarity.</p>
+      <span>View Details →</span>
+    </a>
+
+    <!-- Product 2 -->
+    <a href="product-client.html" class="product-card">
+      <h3>Client Management Tracker</h3>
+      <p>Organize clients, payments, deadlines & notes.</p>
+      <span>View Details →</span>
+    </a>
+
+    <!-- Product 3 -->
+    <a href="product-content.html" class="product-card">
+      <h3>Content & Revenue Planner</h3>
+      <p>Plan posts and track income from content.</p>
+      <span>View Details →</span>
+    </a>
+
+  </div>
+</section>
+
+<script src="script.js"></script>
+
+<style>
+.products-grid {
+  width: 100%;
+  padding: 0 40px 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.product-card {
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.3);
+  transition: 0.4s ease;
+  text-decoration: none;
+  color: white;
+}
+
+.product-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 0 35px rgba(77,210,255,0.6);
+}
+
+.product-card h3 {
+  color: #4dd2ff;
+  margin-bottom: 10px;
+}
+
+.product-card span {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+</style>
+
+</body>
+</html>

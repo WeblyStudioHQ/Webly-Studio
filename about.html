@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About | Webly Studio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">Webly<span>Studio</span></div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="about.html" class="active">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a href="https://www.freelancer.com/u/mariyainamdar84/" target="_blank" class="hire-btn">
+    Hire on Freelancer
+  </a>
+</nav>
+
+<section class="hero" style="flex-direction:column; padding-top:160px; text-align:center;">
+
+  <h1>About <span>Webly Studio</span></h1>
+  <p style="opacity:0.8; margin:20px 0 40px;">
+    I am a frontend developer and digital product creator. At Webly Studio, I craft premium websites and smart digital tools to help businesses and creators thrive online.
+  </p>
+
+  <div class="about-grid">
+
+    <div class="glass-card about-card">
+      <h3>Our Mission</h3>
+      <p>
+        To deliver high-quality, modern websites and digital products that combine aesthetic design with functionality, empowering clients to succeed online.
+      </p>
+    </div>
+
+    <div class="glass-card about-card">
+      <h3>Our Approach</h3>
+      <p>
+        Each project is approached with attention to detail, creativity, and usability. We use glassmorphism, animations, and clean layouts to give your brand a premium digital presence.
+      </p>
+    </div>
+
+    <div class="glass-card about-card">
+      <h3>Why Choose Us</h3>
+      <p>
+        With a combination of custom services and ready-to-use digital products, Webly Studio provides scalable solutions that save time and elevate your brand.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+
+<style>
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  padding: 0 40px 60px;
+}
+
+.about-card {
+  padding: 30px 20px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 25px rgba(0,0,0,0.3);
+  transition: 0.4s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 0 35px rgba(77,210,255,0.6);
+}
+
+.about-card h3 {
+  margin-bottom: 15px;
+  color: #4dd2ff;
+}
+</style>
+
+</body>
+</html>
